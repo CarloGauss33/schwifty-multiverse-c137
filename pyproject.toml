@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Carlos Paredes <carlos@paredesrobles.com>"]
 readme = "README.md"
-packages = [{include = "schwifty_multiverse_c137"}]
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
