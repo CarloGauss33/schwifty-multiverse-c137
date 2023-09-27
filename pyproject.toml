@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "schwifty-multiverse-c137"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Paredes <carlos@paredesrobles.com>"]
+readme = "README.md"
+packages = [{include = "schwifty_multiverse_c137"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ruff = "^0.0.291"
+requests = "^2.31.0"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
