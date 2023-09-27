@@ -6,7 +6,7 @@ from app.clients.rick_and_morty_client import RickAndMortyClient
 def client():
     with patch.object(RickAndMortyClient, '_RickAndMortyClient__get') as mocked_get:
         mocked_get.return_value = AsyncMock()
-        client = RickAndMortyClient()
+        RickAndMortyClient()
         yield RickAndMortyClient()
 
 @pytest.mark.asyncio
