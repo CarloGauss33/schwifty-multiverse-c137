@@ -1,4 +1,4 @@
-from clients.base_client import BaseClient
+from app.clients.base_client import BaseClient
 
 class RickAndMortyClient:
     BASE_URL = 'https://rickandmortyapi.com/'
